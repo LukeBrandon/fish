@@ -7,6 +7,8 @@ end
 # Set vim mode
 set --export EDITOR "vim"
 
+pyenv init - | source
+
 # Aliases
 alias gcd="git checkout dev"
 alias gcm="git checkout main"
